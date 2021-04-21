@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        // 编译后文件
+        "outDir": "./dist",
+        "module": "commonjs",
+        "target": "es2016",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "allowJs": true,
+        "resolveJsonModule": true,
+        // 处理非ts import
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        // 装饰器特性
+        "experimentalDecorators": true,
+        // 装饰器元数据
+        "emitDecoratorMetadata": true
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}
